@@ -1,10 +1,10 @@
-package com.szp.springlearn;
+package com.szp.eurekaregister;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringLearnApplicationTests {
+class EurekaRegisterApplicationTests {
 
   @Test
   void contextLoads() {
