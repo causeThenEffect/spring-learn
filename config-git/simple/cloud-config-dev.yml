@@ -1,4 +1,4 @@
-simple:
-  config:
-    name: git-dev
-    age: 112
+simple.config.name=git-dev
+simple.config.age=1
+
+registercenter.eureka.defaultzone=http://localhost:9000/eureka/
