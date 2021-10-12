@@ -1,0 +1,4 @@
+simple:
+  config:
+    name: git-dev
+    age: 112

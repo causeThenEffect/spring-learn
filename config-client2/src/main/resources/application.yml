@@ -1,0 +1,23 @@
+server:
+  port: 9005
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+spring:
+  config:
+    import: optional:configserver:http://localhost:9001
+  application:
+    name: config-client2
+  cloud:
+    config:
+      name: config-server
+      profile: dev
+
+#spring:
+#  cloud:
+#    config:
+#      uri: http://127.0.0.1:9001
+#      name: config-server
+#      profile: ${config.profile:dev}
