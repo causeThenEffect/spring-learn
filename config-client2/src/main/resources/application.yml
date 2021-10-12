@@ -12,7 +12,7 @@ spring:
     name: config-client2
   cloud:
     config:
-      name: config-server
+      name: cloud-config
       profile: dev
 
 #spring:
