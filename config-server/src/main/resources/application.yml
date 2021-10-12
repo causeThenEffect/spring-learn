@@ -8,3 +8,5 @@ spring:
         git:
           uri: https://github.com/causeThenEffect/spring-learn.git
           search-paths: config-git/simple
+  application:
+    name: config-server

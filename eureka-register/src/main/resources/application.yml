@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone:
+        http://${eureka.instance.hostname}:${server.port}/eureka/
+    server:
+      # 关闭自我保护机制
+      enable-self-preservation: false
+      #驱逐计时器扫描失效服务的间隔时间（默认为60*1000ms）
+      eviction-interval-timer-in-ms: 3000
