@@ -8,22 +8,17 @@
     <artifactId>spring-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+
   <groupId>com.szp</groupId>
-  <artifactId>eureka-register</artifactId>
+  <artifactId>config-server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>eureka-register</name>
+  <name>config-server</name>
   <description>Demo project for Spring Boot</description>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <artifactId>spring-cloud-config-server</artifactId>
     </dependency>
   </dependencies>
 

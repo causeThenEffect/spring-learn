@@ -1,0 +1,21 @@
+server:
+  port: 9002
+
+# 配置服务器的地址
+  spring.cloud.config.uri=http://127.0.0.1:8888
+  # 配置远程服务上文件名称
+  spring.cloud.config.name=cloud-config
+  spring.cloud.config.profile=${config.profile:dev}
+
+  # 服务器注册服务器的zone
+  eureka.client.serviceUrl.defaultZone=${registercenter.eureka.defaultzone}
+
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:9001
+      name: config-server
+      profile: ${config.profile:dev}
+eureka:
+  client:
+    service-url: ${registercenter.eureka.defaultzone}

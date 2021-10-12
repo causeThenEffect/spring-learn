@@ -9,21 +9,23 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.szp</groupId>
-  <artifactId>eureka-register</artifactId>
+  <artifactId>config-client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>eureka-register</name>
+  <name>config-client</name>
   <description>Demo project for Spring Boot</description>
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-config-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-netflix-eureka-client</artifactId>
     </dependency>
   </dependencies>
 

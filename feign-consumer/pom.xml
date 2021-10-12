@@ -8,23 +8,35 @@
     <artifactId>spring-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.szp</groupId>
-  <artifactId>eureka-register</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>eureka-register</name>
-  <description>Demo project for Spring Boot</description>
 
+  <groupId>com.szp</groupId>
+  <artifactId>feign-consumer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>feign-consumer</name>
+  <description>Demo project for Spring Boot</description>
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
   <dependencies>
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-netflix-eureka-client</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-config-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-hystrix</artifactId>
+    </dependency>
+
+
   </dependencies>
 
   <build>
