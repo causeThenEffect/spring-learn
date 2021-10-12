@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: ${registercenter.eureka.defaultzone}
 spring:
   config:
     import: optional:configserver:http://localhost:9001
@@ -13,7 +13,10 @@ spring:
   cloud:
     config:
       name: cloud-config
-      profile: dev
+      profile: ${spring.profiles.active}
+      label: master
+  profiles:
+    active: dev
 
 #spring:
 #  cloud:
