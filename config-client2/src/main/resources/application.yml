@@ -16,7 +16,7 @@ spring:
       profile: ${spring.profiles.active}
       label: master
   profiles:
-    active: dev
+    active: test
 
 #spring:
 #  cloud:
