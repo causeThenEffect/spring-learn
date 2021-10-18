@@ -19,6 +19,9 @@
 
   <modules>
     <module>aspect-learn</module>
+    <module>feign-consumer2</module>
+    <module>security</module>
+    <module>basic-web</module>
   </modules>
 
   <properties>
