@@ -17,6 +17,10 @@
   <name>spring-learn</name>
   <description>Demo project for Spring Boot</description>
 
+  <modules>
+    <module>aspect-learn</module>
+  </modules>
+
   <properties>
     <java.version>1.8</java.version>
     <spring-cloud.version>2020.0.4</spring-cloud.version>

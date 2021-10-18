@@ -3,6 +3,10 @@ package com.szp.aspectlearn.enums;
 import com.fasterxml.jackson.annotation.JsonValue;
 import java.util.Objects;
 
+/**
+ * @author songzhipeng
+ */
+
 public enum SensitiveFilterTypeEnum {
 
   UNDEFINED(-1, "未定义枚举值"),
