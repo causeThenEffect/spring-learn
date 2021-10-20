@@ -22,6 +22,9 @@
     <module>feign-consumer2</module>
     <module>security</module>
     <module>basic-web</module>
+    <module>starter-demo</module>
+    <module>starter-test</module>
+    <module>mybatis-test</module>
   </modules>
 
   <properties>
