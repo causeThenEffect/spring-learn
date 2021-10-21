@@ -1,2 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.szp.starter.config.StarterConfigTest
+
+#com.szp.starter.service.UserService=\
+#com.szp.starter.service.UserServiceImplB

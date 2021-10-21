@@ -17,4 +17,9 @@ public class StarterConfigTest {
     return new UserServiceImpl();
   }
 
+  /*@Bean
+  public UserService getUserServiceB() {
+    return new UserServiceImpl();
+  }*/
+
 }
