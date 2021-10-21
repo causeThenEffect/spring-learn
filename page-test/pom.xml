@@ -50,6 +50,11 @@
       <version>1.5.22</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.szp</groupId>
+      <artifactId>web-plus-spring-boot-starter</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>

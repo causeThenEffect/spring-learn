@@ -9,3 +9,5 @@ eureka:
 spring:
   application:
     name: aspect-learn
+
+#debug: true
