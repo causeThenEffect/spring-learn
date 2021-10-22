@@ -18,3 +18,15 @@ spring:
       maximum-pool-size: 100
       minimum-idle: 30
       pool-name: HikariConnectionPool
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#      base-path: /monitor
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: true
