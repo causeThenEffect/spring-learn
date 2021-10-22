@@ -8,6 +8,6 @@ class UserController {
 
     @GetMapping("/hi")
     String hi() {
-        return "hello groovy11213"
+        return "hello groovy112"
     }
 }
