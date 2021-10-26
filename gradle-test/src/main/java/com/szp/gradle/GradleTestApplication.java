@@ -1,14 +1,16 @@
-package com.szp.aspectlearn;
+package com.szp.gradle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author songzhipeng
+ */
 @SpringBootApplication
-//@EnableEurekaClient
-public class AspectLearnApplication {
+public class GradleTestApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(AspectLearnApplication.class, args);
+    SpringApplication.run(GradleTestApplication.class, args);
   }
 
 }
