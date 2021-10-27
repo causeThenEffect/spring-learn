@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.szp.mybatis.springboot.dao.UserMapper">
+
+    <!-- 根据id查询一个Order对象 -->
+    <select id="getUsers" resultType="com.szp.mybatis.springboot.model.UserDetail">
+        SELECT * FROM user_detail limit 10
+    </select>
+
+</mapper>
