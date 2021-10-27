@@ -1,12 +1,15 @@
 package com.szp.service.model;
 
+import lombok.Data;
+
 /**
  * @Author songzhipeng
  * @create 2021/10/27
  */
+@Data
 public class UserDetail {
 
-  private Long userId;
+  private Long mobile;
 
   private String nickname;
 

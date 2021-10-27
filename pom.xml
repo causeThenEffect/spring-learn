@@ -27,6 +27,7 @@
     <module>spi-test</module>
     <module>spi-test</module>
     <module>groovy-test</module>
+    <module>mybatis-test2</module>
   </modules>
 
   <properties>

@@ -21,7 +21,7 @@
 
     <!-- 注册表映射文件 -->
     <mappers>
-<!--        <mapper resource="com/mybatis/orderMapper.xml"/>-->
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
 
 </configuration>

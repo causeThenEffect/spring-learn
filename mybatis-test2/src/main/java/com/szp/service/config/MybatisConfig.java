@@ -1,5 +1,6 @@
 package com.szp.service.config;
 
+import com.szp.service.service.UserDetailService;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -18,8 +19,13 @@ import java.io.Reader;
 public class MybatisConfig {
 
   @Bean
+  public UserDetailService userDetailService() {
+    return new UserDetailService();
+  }
+
+  @Bean
   public SqlSession sqlSession() {
-    String resource = "mybatisConfig.xml";
+    String resource = "mybaitsConfig.xml";
     // 加载mybatis的配置文件（它也加载关联的映射文件）
     Reader reader = null;
     try {

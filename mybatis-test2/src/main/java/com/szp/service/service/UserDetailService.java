@@ -1,5 +1,8 @@
 package com.szp.service.service;
 
+import com.szp.service.model.UserDetail;
+import java.util.List;
+import java.util.Optional;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +18,10 @@ public class UserDetailService {
   private SqlSession sqlSession;
 
   public void getUsers() {
-    sqlSession.selectList("com.szp.learn.dao.getUsers");
+    List<UserDetail> userDetailList = sqlSession.selectList("com.szp.service.dao.UserMapper.getUsers");
+    userDetailList.stream()
+        .forEach(userDetail -> Optional.ofNullable(userDetail)
+            .ifPresent(userDetail1 -> System.out.println(userDetail.toString())));
   }
 
 }
