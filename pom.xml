@@ -24,7 +24,6 @@
     <module>web-plus-spring-boot-starter</module>
     <module>starter-demo</module>
     <module>starter-test</module>
-    <module>mybatis-test</module>
     <module>spi-test</module>
     <module>spi-test</module>
     <module>groovy-test</module>
