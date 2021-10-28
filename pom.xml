@@ -25,9 +25,9 @@
     <module>starter-demo</module>
     <module>starter-test</module>
     <module>spi-test</module>
-    <module>spi-test</module>
     <module>groovy-test</module>
     <module>mybatis-test2</module>
+    <module>mybatis-spring-boot</module>
   </modules>
 
   <properties>
