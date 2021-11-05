@@ -29,6 +29,7 @@
     <module>mybatis-test2</module>
     <module>mybatis-spring-boot</module>
     <module>log-test</module>
+    <module>logback-test</module>
   </modules>
 
   <properties>
