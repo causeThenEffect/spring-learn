@@ -1,5 +1,6 @@
 package com.szp.mybatis.springboot;
 
+import com.szp.mybatis.springboot.model.UserDetail;
 import com.szp.mybatis.springboot.service.UserDetailService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,20 @@ public class UserDetailServiceTest {
    */
   @Test
   public void testGetUsers() throws Exception {
-    userDetailService.getUsers();
+    userDetailService.getUsers(10, 10);
+  }
+
+  @Test
+  public void addUsers() {
+    Long mobile = 16628561353L;
+    String nickname = "test";
+
+    for (int i = 0; i < 10000; i++) {
+      UserDetail userDetail = new UserDetail();
+      userDetail.setMobile(mobile + i);
+      userDetail.setNickname(nickname + i);
+      userDetailService.addUsers(userDetail);
+    }
   }
 
 

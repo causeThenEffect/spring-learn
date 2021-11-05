@@ -1,0 +1,198 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c51077d] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2146372416 wrapping com.mysql.cj.jdbc.ConnectionImpl@5f395ce1] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c51077d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@183ade54] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@849199636 wrapping com.mysql.cj.jdbc.ConnectionImpl@fbe70d8] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@183ade54]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5856dbe4] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2062184524 wrapping com.mysql.cj.jdbc.ConnectionImpl@6d0290d8] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5856dbe4]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a6c7f42] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2100073313 wrapping com.mysql.cj.jdbc.ConnectionImpl@329dc214] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a6c7f42]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66bf40e5] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@506518405 wrapping com.mysql.cj.jdbc.ConnectionImpl@19827608] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66bf40e5]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3becc950] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1158611509 wrapping com.mysql.cj.jdbc.ConnectionImpl@78c262ba] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3becc950]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a058be5] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@897358809 wrapping com.mysql.cj.jdbc.ConnectionImpl@7aea704c] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a058be5]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f557c37] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1158611509 wrapping com.mysql.cj.jdbc.ConnectionImpl@78c262ba] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f557c37]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2100073313 wrapping com.mysql.cj.jdbc.ConnectionImpl@329dc214] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@687947506 wrapping com.mysql.cj.jdbc.ConnectionImpl@265c1a7c] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@214560653 wrapping com.mysql.cj.jdbc.ConnectionImpl@14b528b6] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@707ca986] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@687947506 wrapping com.mysql.cj.jdbc.ConnectionImpl@265c1a7c] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@707ca986]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@180b3819] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1946815838 wrapping com.mysql.cj.jdbc.ConnectionImpl@29013ef2] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@180b3819]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ae997b] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2062184524 wrapping com.mysql.cj.jdbc.ConnectionImpl@6d0290d8] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ae997b]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5856dbe4] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1828884696 wrapping com.mysql.cj.jdbc.ConnectionImpl@32507479] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5856dbe4]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2100073313 wrapping com.mysql.cj.jdbc.ConnectionImpl@329dc214] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a515e5d]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2098992714 wrapping com.mysql.cj.jdbc.ConnectionImpl@209f3887] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a6c7f42] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@116994272 wrapping com.mysql.cj.jdbc.ConnectionImpl@450f0235] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a6c7f42]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a01d7f0] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@973777648 wrapping com.mysql.cj.jdbc.ConnectionImpl@426131d7] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a01d7f0]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71aaf151] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@114012533 wrapping com.mysql.cj.jdbc.ConnectionImpl@38fb50f8] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71aaf151]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61db86bf] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1941639991 wrapping com.mysql.cj.jdbc.ConnectionImpl@685f5d0d] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61db86bf]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/songzhipeng/IdeaProjects/opensource/spring-learn/log-test/target/classes/mapper/UserMapper.xml]'
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed] was not registered for synchronization because synchronization is not active
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@347416758 wrapping com.mysql.cj.jdbc.ConnectionImpl@c412556] will not be managed by Spring
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==>  Preparing: SELECT * FROM user_detail limit 10
+DEBUG main com.szp.log.dao.UserMapper.getUsers - ==> Parameters: 
+DEBUG main com.szp.log.dao.UserMapper.getUsers - <==      Total: 10
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e26f1ed]

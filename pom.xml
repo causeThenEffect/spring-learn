@@ -28,6 +28,7 @@
     <module>groovy-test</module>
     <module>mybatis-test2</module>
     <module>mybatis-spring-boot</module>
+    <module>log-test</module>
   </modules>
 
   <properties>

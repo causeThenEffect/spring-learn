@@ -1,3 +1,12 @@
+#server:
+#  port: 9012
+#spring:
+#  datasource:
+#    driver-class-name: org.hsqldb.jdbcDriver
+#    url: jdbc:hsqldb:mem:testdb
+#    username: root
+#    password: root
+
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
@@ -6,11 +15,8 @@ spring:
     username: root
     password: root
     hikari:
-      # 一个连接idle状态的最大时长（毫秒），超时则被释放（retired），缺省:10分钟
       idle-timeout: 600000
-      # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 缺省:30秒
       connection-timeout: 30000
-      # 一个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟，建议设置比数据库超时时长少30秒
       max-lifetime: 1800000
       maximum-pool-size: 100
       minimum-idle: 30
@@ -18,3 +24,9 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.log4j.Log4jImpl
+
+
+server:
+  port: 9012

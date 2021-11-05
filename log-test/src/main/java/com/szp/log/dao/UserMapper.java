@@ -1,8 +1,9 @@
-package com.szp.mybatis.springboot.dao;
+package com.szp.log.dao;
 
-import com.szp.mybatis.springboot.model.UserDetail;
-import java.util.List;
+import com.szp.log.model.UserDetail;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * @Author songzhipeng
