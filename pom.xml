@@ -30,6 +30,7 @@
     <module>mybatis-spring-boot</module>
     <module>log-test</module>
     <module>logback-test</module>
+      <module>spring-framework-test</module>
   </modules>
 
   <properties>
@@ -59,6 +60,7 @@
 
   <dependencyManagement>
     <dependencies>
+<!--
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
@@ -66,6 +68,27 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+-->
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>2.2.0</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.hsqldb</groupId>
+        <artifactId>hsqldb</artifactId>
+        <version>2.2.9</version>
+        <scope>test</scope>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

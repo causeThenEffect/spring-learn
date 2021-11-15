@@ -1,17 +1,22 @@
 spring:
   datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1/page?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:test1
     username: root
     password: root
-    hikari:
-      idle-timeout: 600000
-      connection-timeout: 30000
-      max-lifetime: 1800000
-      maximum-pool-size: 100
-      minimum-idle: 30
-      pool-name: HikariConnectionPool
+#  datasource:
+#    type: com.zaxxer.hikari.HikariDataSource
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1/page?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: root
+#    hikari:
+#      idle-timeout: 600000
+#      connection-timeout: 30000
+#      max-lifetime: 1800000
+#      maximum-pool-size: 100
+#      minimum-idle: 30
+#      pool-name: HikariConnectionPool
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml

@@ -9,22 +9,23 @@ import java.sql.*;
 public class MysqlCurd {
 
   public static void list() {
-    String sql = "SELECT * FROM user_detail limit 100 ";
+    String sql = "SELECT * FROM user_detail";
     Connection conn = null;
-    Statement st = null;
+//    Statement st = null;
     ResultSet rs = null;
     PreparedStatement ps = null;
     try {
       // 1. 加载注册驱动
       Class.forName("com.mysql.jdbc.Driver");
       // 2. 获取数据库连接
-      conn = DriverManager.getConnection("jdbc:mysql://172.16.9.66:3306/yzc_sit", "visva", "WmaiVisva2018");
+      conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/page", "root", "root");
       // 3. 创建语句对象
-      ps = conn.prepareStatement(sql);
+      ps = conn.prepareStatement(sql, ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY);
+      ps.setFetchSize(Integer.MIN_VALUE);
       // 4. 执行SQL语句
       rs = ps.executeQuery();
       while (rs.next()) {
-        long id = rs.getLong("user_id");
+        long id = rs.getLong("mobile");
         String name = rs.getString("nickname");
         System.out.println(id + "=======>" + name);
       }
@@ -33,8 +34,8 @@ public class MysqlCurd {
       e.printStackTrace();
     } finally {
       try {
-        if (st != null) {
-          st.close();
+        if (ps != null) {
+          ps.close();
         }
       } catch (SQLException e) {
         e.printStackTrace();

@@ -35,7 +35,6 @@ build/
 /**/logs
 .log
 .log.gz
-/log/
 
 /**/mvnw
 /**/mvnw.cmd

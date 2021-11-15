@@ -5,11 +5,27 @@
 
     <!-- 根据id查询一个Order对象 -->
     <select id="getUsers" resultType="com.szp.mybatis.springboot.model.UserDetail">
+        SELECT *
+        FROM user_detail limit 100
+--         where mobile &lt; 18628561353
+    </select>
+
+    <select id="getFakeCursor" resultType="com.szp.mybatis.springboot.model.UserDetail">
         SELECT * FROM user_detail
     </select>
 
     <insert id="addUser" parameterType="com.szp.mybatis.springboot.model.UserDetail">
-        insert into user_detail(mobile, nickname) values (#{mobile}, #{nickname})
+        insert into user_detail(mobile, nickname)
+        values (#{mobile}, #{nickname})
+    </insert>
+
+    <insert id="addUserBatch">
+        INSERT INTO user_detail
+        (mobile, nickname)
+        VALUES
+        <foreach collection="userDetailList" item="user" separator=",">
+            (#{user.mobile}, #{user.nickname})
+        </foreach>
     </insert>
 
 </mapper>

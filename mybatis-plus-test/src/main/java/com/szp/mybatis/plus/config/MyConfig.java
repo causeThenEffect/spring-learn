@@ -2,7 +2,7 @@ package com.szp.mybatis.plus.config;
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
-import io.github.mybatis.pal.CosumeTimeInterceptor;
+import io.github.mybatis.pal.ConsumeTimeInterceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +35,7 @@ public class MyConfig implements InitializingBean {
   @Override
   public void afterPropertiesSet() {
     for (SqlSessionFactory sqlSessionFactory : sqlSessionFactoryList) {
-      sqlSessionFactory.getConfiguration().addInterceptor(new CosumeTimeInterceptor());
+      sqlSessionFactory.getConfiguration().addInterceptor(new ConsumeTimeInterceptor());
     }
   }
 

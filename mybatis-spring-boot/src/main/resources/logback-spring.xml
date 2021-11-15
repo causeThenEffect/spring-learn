@@ -29,9 +29,10 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${log.path}/logback.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                <maxFileSize>1MB</maxFileSize>
+                <maxFileSize>10MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
-            <maxHistory>30</maxHistory>
+            <!--            保留一天的日志-->
+            <maxHistory>1</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{100} - %msg%n</pattern>
@@ -48,7 +49,7 @@
     <!-- name属性为必选，指定要配置的包或类，level和additivity为可选，有缺省值 -->
     <!-- level表示日志级别，这里配置info级别，表示info及以上级别的日志被输出 -->
     <!-- additivity表示日志是否传递到上一级，默认为true -->
-    <logger name="com.szp.logback.dao" level="trace" additivity="false">
+    <logger name="com.szp.mybatis.springboot.dao" level="trace" additivity="false">
         <appender-ref ref="console"/>
     </logger>
 

@@ -1,5 +1,6 @@
 //package com.szp.mybatis.springboot.config;
 //
+//import io.github.mybatis.pal.ConsumeTimeInterceptor;
 //import org.apache.ibatis.plugin.Interceptor;
 //import org.apache.ibatis.session.SqlSessionFactory;
 //import org.springframework.beans.factory.InitializingBean;
@@ -8,6 +9,9 @@
 //
 //import java.util.List;
 //
+///**
+// * @author songzhipeng
+// */
 //@Configuration
 //public class MyAutoConfiguration  implements InitializingBean {
 //
@@ -16,7 +20,7 @@
 //
 //  @Override
 //  public void afterPropertiesSet() {
-//    CosumeTimeInterceptor interceptor = new CosumeTimeInterceptor();
+//    ConsumeTimeInterceptor interceptor = new ConsumeTimeInterceptor();
 //    for (SqlSessionFactory sqlSessionFactory : sqlSessionFactoryList) {
 //      org.apache.ibatis.session.Configuration configuration = sqlSessionFactory.getConfiguration();
 //      if (!containsInterceptor(configuration, interceptor)) {
