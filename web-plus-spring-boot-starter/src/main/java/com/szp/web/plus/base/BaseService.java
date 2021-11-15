@@ -14,7 +14,7 @@ import lombok.NonNull;
 import org.apache.commons.collections4.CollectionUtils;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 public class BaseService<M extends VYBaseMapper<T>, T extends BasePO> extends ServiceImpl<M, T> {

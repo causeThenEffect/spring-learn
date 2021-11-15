@@ -1,7 +1,7 @@
 package com.szp.web.plus.validate;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 public interface EnumValidate<T> {

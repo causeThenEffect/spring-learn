@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import java.util.Objects;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 
 public enum SensitiveFilterTypeEnum {

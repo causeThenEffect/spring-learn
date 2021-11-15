@@ -11,7 +11,7 @@ public class BeanFactoryTest {
   public void test() {
     XmlBeanFactory xmlBeanFactory = new XmlBeanFactory(new ClassPathResource("bean-test.xml"));
     User user = (User) xmlBeanFactory.getBean("user");
-    Assert.assertEquals("songzhipeng", user.getName());
+    Assert.assertEquals("cause", user.getName());
   }
 
 }

@@ -1,7 +1,7 @@
 package com.szp.starter.service;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @DATE 2021/10/20
  */
 public interface UserService {

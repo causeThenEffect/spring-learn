@@ -1,7 +1,7 @@
 package com.szp.service;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @DATE 2021/10/21
  */
 public class Dog implements IShout {

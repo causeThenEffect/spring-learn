@@ -22,7 +22,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 @Log4j2

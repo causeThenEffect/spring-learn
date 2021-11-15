@@ -9,7 +9,7 @@ public class ClassPathXmlApplicationContextTest {
   public void test() {
     ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("bean-test.xml");
     User user = classPathXmlApplicationContext.getBean(User.class);
-    Assert.assertEquals("songzhipeng", user.getName());
+    Assert.assertEquals("cause", user.getName());
   }
 
 }

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 public class UserInfoInterceptor implements HandlerInterceptor {
 

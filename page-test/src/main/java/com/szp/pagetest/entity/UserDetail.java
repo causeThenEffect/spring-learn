@@ -13,7 +13,7 @@ import io.swagger.annotations.ApiModelProperty;
  * 
  * </p>
  *
- * @author songzhipeng
+ * @author cause
  * @since 2021-10-18
  */
 @TableName("user_detail")

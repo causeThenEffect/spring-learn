@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.List;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/26
  */
 public class MysqlCurdV2 {

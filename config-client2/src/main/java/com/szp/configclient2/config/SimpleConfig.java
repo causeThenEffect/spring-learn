@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 从配置服务获取的配置存储到此文件中
  * 
- * @author songzhipeng
+ * @author cause
  *
  */
 @Configuration

@@ -1,7 +1,7 @@
 package com.szp.spring;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 public class User {
 

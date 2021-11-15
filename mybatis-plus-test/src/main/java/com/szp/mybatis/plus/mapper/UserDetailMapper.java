@@ -5,7 +5,7 @@ import com.szp.mybatis.plus.model.UserDetail;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 @Mapper
 public interface UserDetailMapper extends BaseMapper<UserDetail> {

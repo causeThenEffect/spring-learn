@@ -12,7 +12,7 @@ import org.springframework.validation.annotation.Validated;
 
 /**
  * @Description: 排序规则对象
- * @Author: songzhipeng
+ * @Author: cause
  */
 @Data
 @Validated

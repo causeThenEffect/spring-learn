@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import java.util.Collections;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @DATE 2021/10/18
  */
 public class FastAutoGeneratorTest {
@@ -16,10 +16,10 @@ public class FastAutoGeneratorTest {
         "visva",
         "WmaiVisva2018")
         .globalConfig(builder -> {
-          builder.author("songzhipeng") // 设置作者
+          builder.author("cause") // 设置作者
               .enableSwagger() // 开启 swagger 模式
               .fileOverride() // 覆盖已生成文件
-              .outputDir("/Users/songzhipeng/IdeaProjects/opensource/spring-learn/page-test/src/main/java/"); // 指定输出目录
+              .outputDir("/Users/cause/IdeaProjects/opensource/spring-learn/page-test/src/main/java/"); // 指定输出目录
         })
         .packageConfig(builder -> {
           builder.parent("com.szp") // 设置父包名

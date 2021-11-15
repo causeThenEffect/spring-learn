@@ -3,7 +3,7 @@ package com.szp.mybatis.plus.model;
 import lombok.Data;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/27
  */
 @Data

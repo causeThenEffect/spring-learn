@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * <p>
  * feign默认已经使用ribbion做为负载均衡： FeignRibbonClientAutoConfiguration
  *
- * @author songzhipeng
+ * @author cause
  */
 // fallback和fallbackFactory只能有一个，fallback会覆盖fallbackFactory的实现
 @FeignClient(value = "config-client2", path = "/", fallback = FeignClientFallback.class)

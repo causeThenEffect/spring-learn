@@ -1,7 +1,7 @@
 package com.szp.web.plus.resp;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 
 public enum RespCode implements RespError {

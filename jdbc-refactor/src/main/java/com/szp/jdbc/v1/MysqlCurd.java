@@ -3,7 +3,7 @@ package com.szp.jdbc.v1;
 import java.sql.*;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/26
  */
 public class MysqlCurd {

@@ -1,7 +1,7 @@
 package com.szp.web.plus.resp;
 
 /**
- * @author songzhipeng
+ * @author cause
  */
 public interface RespError {
 

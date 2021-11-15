@@ -9,7 +9,7 @@ import org.apache.commons.collections4.CollectionUtils;
 
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 public class EnumIntValidator implements ConstraintValidator<EnumIntValid, Integer> {

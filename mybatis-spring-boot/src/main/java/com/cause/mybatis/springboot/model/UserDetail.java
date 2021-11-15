@@ -3,7 +3,7 @@ package com.cause.mybatis.springboot.model;
 import lombok.Data;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/27
  */
 @Data

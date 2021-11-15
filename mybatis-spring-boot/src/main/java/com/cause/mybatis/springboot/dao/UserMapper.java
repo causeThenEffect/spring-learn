@@ -13,7 +13,7 @@ import org.apache.ibatis.mapping.ResultSetType;
 import org.apache.ibatis.session.ResultHandler;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/27
  */
 @Mapper

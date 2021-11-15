@@ -7,7 +7,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author songzhipeng
+ * @author cause
  * @version 1.0.0 create time 7/5/2020 5:13 PM
  */
 public interface VYBaseMapper<T> extends BaseMapper<T> {

@@ -10,7 +10,7 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 @AllArgsConstructor

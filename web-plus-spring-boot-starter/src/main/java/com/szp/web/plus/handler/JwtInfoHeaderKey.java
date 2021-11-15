@@ -1,7 +1,7 @@
 package com.szp.web.plus.handler;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description:
  */
 public class JwtInfoHeaderKey {

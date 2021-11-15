@@ -1,7 +1,7 @@
 package com.szp.jdbc.v2;
 
 /**
- * @Author songzhipeng
+ * @Author cause
  * @create 2021/10/26
  */
 public class UserDetail {

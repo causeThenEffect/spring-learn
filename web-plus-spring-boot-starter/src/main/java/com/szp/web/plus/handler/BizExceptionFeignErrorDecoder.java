@@ -13,7 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author: songzhipeng
+ * @Author: cause
  * @Description: 该类用于搭配全局异常使用，用于处理feign调用 时 异常转换
  */
 @Log4j2
