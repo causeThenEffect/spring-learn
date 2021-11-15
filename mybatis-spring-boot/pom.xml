@@ -8,7 +8,7 @@
     <artifactId>spring-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.szp</groupId>
+  <groupId>com.cause</groupId>
   <artifactId>mybatis-spring-boot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>mybatis-spring-boot</name>

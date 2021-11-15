@@ -1,4 +1,4 @@
-package com.szp.mybatis.springboot.model;
+package com.cause.mybatis.springboot.model;
 
 import lombok.Data;
 

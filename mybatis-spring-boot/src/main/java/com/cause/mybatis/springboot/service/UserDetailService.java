@@ -1,18 +1,13 @@
-package com.szp.mybatis.springboot.service;
+package com.cause.mybatis.springboot.service;
 
 import com.github.pagehelper.PageHelper;
-import com.szp.mybatis.springboot.dao.UserMapper;
-import com.szp.mybatis.springboot.model.UserDetail;
+import com.cause.mybatis.springboot.dao.UserMapper;
+import com.cause.mybatis.springboot.model.UserDetail;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.cursor.Cursor;
-import org.apache.ibatis.session.ResultContext;
-import org.apache.ibatis.session.ResultHandler;
-import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Iterator;
 import java.util.List;
 
 /**

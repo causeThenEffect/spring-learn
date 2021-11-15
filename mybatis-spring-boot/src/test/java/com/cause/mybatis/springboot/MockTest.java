@@ -1,4 +1,4 @@
-package com.szp.mybatis.springboot;
+package com.cause.mybatis.springboot;
 
 import org.junit.Assert;
 import org.junit.Test;

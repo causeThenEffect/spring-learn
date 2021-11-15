@@ -1,6 +1,6 @@
-package com.szp.mybatis.springboot.dao;
+package com.cause.mybatis.springboot.dao;
 
-import com.szp.mybatis.springboot.model.UserDetail;
+import com.cause.mybatis.springboot.model.UserDetail;
 
 import java.util.List;
 
@@ -34,6 +34,7 @@ public interface UserMapper {
    *
    * @return
    */
+  @Select("SELECT * FROM user_detail limit 1000")
   Cursor<UserDetail> getFakeCursor();
 
   /**
@@ -50,7 +51,7 @@ public interface UserMapper {
   Cursor<UserDetail> getRealCursor();
 
   @Select("select * from user_detail")
-  @Options(resultSetType = ResultSetType.FORWARD_ONLY, fetchSize = Integer.MIN_VALUE)
+  @Options(resultSetType = ResultSetType.SCROLL_INSENSITIVE, fetchSize = Integer.MIN_VALUE)
   @ResultType(UserDetail.class)
   void getUsersStream(ResultHandler<UserDetail> resultHandler);
 

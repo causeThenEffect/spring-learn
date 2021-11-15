@@ -1,16 +1,14 @@
-package com.szp.mybatis.springboot;
+package com.cause.mybatis.springboot;
 
-import com.szp.mybatis.springboot.dao.UserMapper;
-import com.szp.mybatis.springboot.model.UserDetail;
-import com.szp.mybatis.springboot.service.UserDetailService;
+import com.cause.mybatis.springboot.dao.UserMapper;
+import com.cause.mybatis.springboot.model.UserDetail;
+import com.cause.mybatis.springboot.service.UserDetailService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.cursor.Cursor;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
