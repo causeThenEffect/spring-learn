@@ -6,8 +6,7 @@
     <!-- 根据id查询一个Order对象 -->
     <select id="getUsers" resultType="com.cause.mybatis.springboot.model.UserDetail">
         SELECT *
-        FROM user_detail limit 100
---         where mobile &lt; 18628561353
+        FROM user_detail
     </select>
 
     <insert id="addUser" parameterType="com.cause.mybatis.springboot.model.UserDetail">
