@@ -1,6 +1,5 @@
 package com.szp.logback;
 
-import com.szp.logback.dao.UserMapper;
 import com.szp.logback.model.UserDetail;
 import com.szp.logback.service.UserDetailService;
 import lombok.extern.slf4j.Slf4j;
@@ -40,7 +39,7 @@ public class UserDetailServiceTest {
     Long mobile = 16628561353L;
     String nickname = "test";
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 2; i++) {
       UserDetail userDetail = new UserDetail();
       userDetail.setId(i);
       userDetail.setMobile(mobile + i);

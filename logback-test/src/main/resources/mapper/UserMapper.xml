@@ -5,7 +5,7 @@
 
     <!-- 根据id查询一个Order对象 -->
     <select id="getUsers" resultType="com.szp.logback.model.UserDetail">
-        SELECT * FROM user_detail limit 10
+        SELECT * FROM user_detail limit 2
     </select>
 
     <insert id="addUser" parameterType="com.szp.logback.model.UserDetail">

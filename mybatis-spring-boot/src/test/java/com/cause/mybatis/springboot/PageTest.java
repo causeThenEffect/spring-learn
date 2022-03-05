@@ -25,7 +25,7 @@ class PageTest {
 
   @Test
   void testGetUsers() {
-    PageHelper.startPage(100000, 10);
+    PageHelper.startPage(1, 10);
     List<UserDetail> userDetailList = userMapper.getUsers();
     assertEquals(10, userDetailList.size());
   }

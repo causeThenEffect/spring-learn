@@ -29,7 +29,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${log.path}/logback.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                <maxFileSize>1MB</maxFileSize>
+                <maxFileSize>10MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
@@ -39,7 +39,7 @@
     </appender>
 
     <!--    root节点实际上是配置启用哪种appender，可以添加多个appender-->
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>
     </root>
@@ -50,6 +50,12 @@
     <!-- additivity表示日志是否传递到上一级，默认为true -->
     <logger name="com.szp.logback.dao" level="trace" additivity="false">
         <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
+    </logger>
+
+    <logger name="org.mybatis.spring" level="trace" additivity="false">
+        <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
     </logger>
 
 </configuration>

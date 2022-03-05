@@ -8,7 +8,6 @@
     <artifactId>spring-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.szp</groupId>
   <artifactId>config-client2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>config-client2</name>
@@ -29,12 +28,6 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-config-client</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
     </dependency>
   </dependencies>
   <dependencyManagement>

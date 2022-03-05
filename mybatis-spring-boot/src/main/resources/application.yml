@@ -18,4 +18,6 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
-#  executor-type: batch
+#  executor-type: simple
+  pal:
+    limit-milli-second: 100
