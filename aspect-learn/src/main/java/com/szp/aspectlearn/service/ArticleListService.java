@@ -6,7 +6,7 @@ package com.szp.aspectlearn.service;
  */
 public interface ArticleListService {
 
-  String getCommentList();
+  String getCommentList(String type);
 
   String getPullList();
 

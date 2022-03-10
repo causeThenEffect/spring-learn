@@ -18,7 +18,7 @@ public class ArticleController {
 
   @GetMapping(value = "/getCommentList")
   public String getCommentList() {
-    return articleListService.getCommentList();
+    return articleListService.getCommentList("type1");
   }
 
   @GetMapping(value = "/getPullList")

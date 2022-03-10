@@ -13,8 +13,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class SensitiveFilterAspect {
-
-  @Around("@annotation(sensitiveListFilter)")
+  @Around("@annotation(sensitiveListFilter) && execution(java.lang.String *(java.lang.String))")
   public Object sensitiveListFilter(ProceedingJoinPoint joinPoint, SensitiveListFilter sensitiveListFilter)
       throws Throwable {
 
@@ -22,6 +21,7 @@ public class SensitiveFilterAspect {
     switch (sensitiveListFilter.filterType().getValue()) {
       case 1:
         object = handCommentList(object);
+        System.out.println("============>" + joinPoint.getArgs()[0]);
         break;
       case 2:
         object = handPullList(object);

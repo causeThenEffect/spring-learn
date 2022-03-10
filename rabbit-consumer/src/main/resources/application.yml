@@ -1,0 +1,22 @@
+
+server:
+  port: 9011
+
+spring:
+  rabbitmq:
+    host: amqp-cn-7mz2liifa00a.mq-amqp.cn-hangzhou-249959-a.aliyuncs.com
+    port: 5672
+    username: LTAI5tLRrEm2PdRywtVvot77
+    password: zEvOyDfnmRq6nAXHddgaYJkLiRRWgf
+    publisher-returns: true
+    virtual-host: test1111
+    template:
+      mandatory: true
+    listener:
+      simple:
+        acknowledge-mode: manual
+        retry:
+          max-attempts: 3
+        concurrency: 1
+#        prefetch: 1
+    publisher-confirm-type: simple

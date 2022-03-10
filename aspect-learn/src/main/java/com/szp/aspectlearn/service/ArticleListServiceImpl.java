@@ -13,8 +13,8 @@ public class ArticleListServiceImpl implements ArticleListService {
 
   @Override
   @SensitiveListFilter(filterType = SensitiveFilterTypeEnum.COMMENT_LIST)
-  public String getCommentList() {
-    System.gc();
+  public String getCommentList(String type) {
+//    System.gc();
     return "comment list";
   }
 

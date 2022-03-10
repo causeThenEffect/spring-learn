@@ -1,0 +1,14 @@
+server:
+  port: 9010
+
+spring:
+  rabbitmq:
+    host: amqp-cn-7mz2liifa00a.mq-amqp.cn-hangzhou-249959-a.aliyuncs.com
+    port: 5672
+    username: LTAI5tLRrEm2PdRywtVvot77
+    password: zEvOyDfnmRq6nAXHddgaYJkLiRRWgf
+    publisher-returns: true
+    virtual-host: test1111
+    template:
+      mandatory: true
+    publisher-confirm-type: correlated
