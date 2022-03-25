@@ -35,6 +35,7 @@
         <module>eureka-register</module>
         <module>feign-produce</module>
         <module>redission-test</module>
+        <module>mapstruct-test</module>
     </modules>
 
     <properties>
