@@ -20,7 +20,7 @@ public class UserService {
     User user = new User();
 //    user.setAge("123");
     user.setId("34534");
-//    user.setName("sfsdfsdf");
+    user.setName("sfsdfsdf");
 
     UserDTO userDTO = userMapper.userMap(user);
 
