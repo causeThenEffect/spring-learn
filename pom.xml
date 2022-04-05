@@ -36,6 +36,7 @@
         <module>feign-produce</module>
         <module>redission-test</module>
         <module>mapstruct-test</module>
+        <module>web-common-test</module>
     </modules>
 
     <properties>
